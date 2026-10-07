@@ -20,7 +20,9 @@ The body was there to exploit the male gaze and heighten the absurdity, not to m
 
 The project grew well past a simple text-generation demo.
 
-One machine handled Twitch input, generated responses, produced audio, and passed files across my home network. A second machine handled playback / rendering and the actual Twitch broadcast through OBS. I also worked out remote access and restart tricks so I could recover the system when one of the machines froze.
+One machine handled Twitch input, generated responses, produced audio, and passed files across my home network. A second machine handled playback / rendering and the actual Twitch broadcast through OBS.
+
+I even flashed my router with DD-WRT because I wanted more control over the network and a better way to reach the setup remotely. That helped with access and recovery, but it obviously could not make an unreliable connection reliable. I also used remote access, restart automation, and a network-connected power strip so I could bring machines back when something froze.
 
 The full runtime glue has not all been recovered, but the surviving source and notes document the model-training, generation, transcript/audio preparation, iClone lip-sync work, and parts of the later live-media pipeline.
 
@@ -28,9 +30,11 @@ The full runtime glue has not all been recovered, but the surviving source and n
 
 The channel eventually reached Twitch Partner status, which was pretty wild for what started as a stupid GPT-2 experiment.
 
-Keeping it alive was the harder part. This was peak COVID, before vaccines. I was avoiding the subway and splitting time between Queens and my then-partner’s place, sometimes literally walking about seven miles each way. Meanwhile the stream depended on two computers, a finicky network handoff, remote power / restart workarounds, and machines that could freeze or run out of memory. A bad connection or crash could mean days of downtime.
+Keeping it alive was the harder part. This was peak COVID, before vaccines. I was avoiding the subway and splitting time between Queens and my then-partner’s place, sometimes literally walking about seven miles each way. Meanwhile the stream depended on two computers, a home network, remote power / restart workarounds, and machines that could freeze or run out of memory. A bad connection or crash could mean days of downtime.
 
-At a certain point, keeping a novelty character running 24/7 just was not realistic with the logistics of my life at the time, so I stopped maintaining the live stream.
+DD-WRT gave me more control, but it could not remove the basic problem: there were too many failure points in an always-on homemade stream, and physically babysitting them did not fit the logistics of my life at the time.
+
+At a certain point, keeping a novelty character running 24/7 just was not realistic, so I stopped maintaining the live stream.
 
 ## What survived
 
