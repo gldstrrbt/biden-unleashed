@@ -1,0 +1,3 @@
+# Historical dependency used by the recovered 2020 project.
+# gpt-2-simple 0.7.x expects a TensorFlow 1.x-era environment.
+gpt-2-simple==0.7.1
