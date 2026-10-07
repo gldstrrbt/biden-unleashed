@@ -17,9 +17,19 @@ The creator recalls running the project across two computers so one machine did 
    - played/rendered the corresponding media;
    - streamed the resulting output to Twitch.
 
-The home network included a modified/open-source-router setup and remote administration so the machines could be recovered while unattended. The creator recalls using SSH and a network-connected power strip when the computers froze, with both machines configured to boot and restart the required scripts automatically.
+The home network ran through a router flashed with **DD-WRT**, chosen for the extra control it gave over the local network and remote administration. That made it easier to reach and recover the setup from elsewhere, but it could not solve unreliable consumer internet or the other failure points in the two-machine pipeline.
 
-The exact router firmware, network topology, remote-recovery scripts, Twitch listener, file-transfer mechanism, second-machine watcher/player, and power-strip automation are **not present in the recovered files**. They should be treated as unrecovered project history rather than reconstructed source.
+Remote recovery also included SSH / remote access, a network-connected power strip, and machines configured to boot and relaunch pieces of the system automatically after a reset.
+
+The exact network topology, remote-recovery scripts, Twitch listener, file-transfer mechanism, second-machine watcher/player, and power-strip automation are **not present in the recovered files**. They should be treated as unrecovered project history rather than reconstructed source.
+
+## Why the live stream stopped
+
+The stream eventually reached Twitch Partner status, but keeping an always-on setup alive became increasingly unrealistic during peak COVID.
+
+The creator was avoiding the subway before vaccines and splitting time between Queens and a partner's home, at times walking roughly seven miles each way. A frozen machine, memory problem, or bad connection could take the stream down for days if the problem could not be solved remotely.
+
+DD-WRT and the remote-reset setup helped, but they could not remove the underlying logistical problem: two temperamental machines, unreliable connections, and a homemade 24/7 media pipeline still needed physical attention sometimes.
 
 ## What this batch actually contains
 
