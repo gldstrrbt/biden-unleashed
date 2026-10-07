@@ -1,0 +1,25 @@
+# model data / checkpoints
+models/
+checkpoint/
+*.ckpt*
+
+# generated output
+biden.csv
+
+# recovered training/audio datasets
+*.wav
+*.mp3
+*.flac
+transcript.csv
+metadata.csv
+
+# local corpora
+joe*.txt
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+.DS_Store
