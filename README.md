@@ -30,7 +30,7 @@ The full runtime glue has not all been recovered, but the surviving source and n
 
 The channel eventually reached Twitch Partner status, which was pretty wild for what started as a stupid GPT-2 experiment.
 
-Keeping it alive was the harder part. This was peak COVID, before vaccines. I was avoiding the subway and splitting time between Queens and my then-partner’s place, sometimes literally walking about seven miles each way. Meanwhile the stream depended on two computers, a home network, remote power / restart workarounds, and machines that could freeze or run out of memory. A bad connection or crash could mean days of downtime.
+Keeping it alive was the harder part. This was peak COVID, before vaccines. I was avoiding the subway and splitting time between Queens and my then-partner’s place, walking seven miles each way. Meanwhile the stream depended on two computers, a home network, remote power / restart workarounds, and machines that could freeze or run out of memory. A bad connection or crash could mean days of downtime.
 
 DD-WRT gave me more control, but it could not remove the basic problem: there were too many failure points in an always-on homemade stream, and physically babysitting them did not fit the logistics of my life at the time.
 
